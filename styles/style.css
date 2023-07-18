@@ -1,0 +1,105 @@
+/* navber section start here */
+
+nav{
+    background-color:#fff ;
+}
+.nav-container{
+   
+   max-width:  1920px;
+height: 130px;
+display: flex;
+align-items: center;
+margin: 0 auto;
+
+}
+.logo-container{
+    
+    display: flex;
+    width: 50%;
+}
+.logo-container img{
+   
+padding: 44px;
+    
+height: 40px;
+object-fit: cover;
+}
+.logo-container p{
+   font-size: 2.81rem; 
+   
+   color:
+font-family: Work Sans;
+font-weight: 700;
+}
+.gamer-g{
+    color: #FF42A5;
+}
+.nav-items-container{
+
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-items-container a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+.follow-us-on-btn{
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+padding: 10px 20px;
+font-weight: 500;
+}
+
+
+/* navber section end here */
+
+
+/* banner 1 design started */
+/* banner 1 text area started */
+section{
+    
+}
+.banner-container{
+   border: 1px solid red;
+   margin: 50px auto 0;
+   max-width: 1920px;
+   
+}
+
+
+.banner-text{
+
+}
+
+
+.banner-plt{
+
+}
+
+
+.banner-goat{
+
+}
+.banner-discription{
+
+}
+.banner-button{
+
+}
+/* banner 1 text area ended */
+/* banner image area start */
+.banner-imag{
+
+}
+
+
+
+
+
+
+/* banner image area end*/
+
+/* banner 1 design started */
