@@ -532,22 +532,61 @@ background: url(<path-to-image>), lightgray -7.583px 0px / 102.389% 100% no-repe
 /***************** banner section 4 end *********/
 /************* start hover section *******/
 
+.game-section {
+    margin-top: 20px;
+
+}
+
+.game-container-1 {
+    display: flex;
+    position: relative;
+    left: 7.5rem;
+}
+
+.game-container-2 {
+    display: flex;
+    position: relative;
+    left: 11.25rem;
+}
+
+.my-games {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.my-games>span {
+    margin-right: 15px;
+    padding: 10px;
+}
+
+.my-games:hover {
+    border: 2px solid #f1007d;
+    border-radius: 30px;
+    color: #e70707;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 /************* end hover section *******/
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
