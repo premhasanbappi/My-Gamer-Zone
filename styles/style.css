@@ -530,3 +530,87 @@ background: url(<path-to-image>), lightgray -7.583px 0px / 102.389% 100% no-repe
 }
 
 /***************** banner section 4 end *********/
+
+/* Styling for the footer */
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    display: flex;
+    padding: 20px;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Styling for the logo and text */
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo-container img {
+    width: 86.041px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.gamer-g {
+    color: #FF42A; /* Change to your desired color */
+}
+
+/* Styling for the links and images */
+.footer-links, .footer-images, .footer-policies {
+    display: flex;
+    flex-direction:row;
+    gap:60px;
+    align-items: center;
+    font-family: Work Sans;
+}
+
+
+
+.footer-links p,{
+    color: #FFF;
+text-align: center;
+font-family: Work Sans;
+font-size: 18px;
+font-weight: 600;
+}
+.footer-images img{
+    width: 57.13px;
+height: 40px;
+flex-shrink: 0; 
+}
+
+.footer-policies p{
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+font-family: Work Sans;
+font-size: 16px;
+font-weight: 500;
+}
+
+/* Styling for the copyright text */
+.footer-copyright {
+    color: rgba(255, 255, 255, 0.60);
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+/* footer started */
+
+
+
+/* Footer end */
