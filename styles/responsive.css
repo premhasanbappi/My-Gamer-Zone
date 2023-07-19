@@ -1,21 +1,131 @@
-@media screen and (max-width:425px){
-    .nav-container{
-   
-   flex-direction: column;
-}
+/* Base styles for all screen sizes */
 
 
-.nav-items-container{
 
-    
-    flex-direction: column;
-}
-.nav-items-container a{
-    margin-top: 20px;
-
-
-}
-}
-.banner-title-wag{
-
-}
+/* Mobile screen styles */
+@media (max-width: 427px) {
+    /* Adjust the styles for mobile screens here */
+  
+    /* navber section */
+    .nav-container {
+      flex-direction: column;
+      height: auto;
+    }
+  
+    .logo-container {
+      width: 100%;
+      justify-content: center;
+    }
+  
+    .logo-container img {
+      margin: 10px;
+    }
+  
+    .nav-items-container {
+      width: 100%;
+      justify-content: center;
+    }
+  
+    .nav-items-container a {
+      font-size: 16px; /* Adjust font size for smaller screens */
+    }
+  
+    /* banner 1 text area */
+    .banner-container {
+      flex-direction: column;
+      height: auto;
+    }
+  
+    .banner-text {
+      width: 100%;
+      padding-left: 0;
+    }
+  
+    .banner-button {
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+  
+    .banner-img {
+      width: 100%;
+    }
+  
+    /* banner 2 text area */
+    .banner-container-2 {
+      flex-direction: column;
+      height: auto;
+    }
+  
+    .banner-img-2 {
+      width: 100%;
+    }
+  
+    .banner-text-2 {
+      width: 100%;
+    }
+  
+    /* game collection img and img footer area start */
+    .img-container {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .img-container img {
+      width: 100%;
+      height: auto;
+    }
+  
+    .discription-img {
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+  
+    .discription-img p {
+      padding-left: 0;
+      text-align: center;
+    }
+  
+    /* banner section 4 started */
+    .game-banner-container,
+    .play-instantly,
+    .no-download,
+    .gameplay-discription {
+      text-align: center;
+    }
+  
+    .game-img-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .game1-img,
+    .game2-img {
+      width: 100%;
+      height: auto;
+    }
+  
+    /* Styling for the footer */
+    footer {
+      flex-direction: column;
+    }
+  
+    .footer-links,
+    .footer-images,
+    .footer-policies {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .footer-images img {
+      width: 40px;
+      height: auto;
+    }
+  
+    .footer-copyright {
+      font-size: 10px;
+      margin-top: 10px;
+    }
+  }
+  
