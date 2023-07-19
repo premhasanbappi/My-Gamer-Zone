@@ -430,14 +430,103 @@ padding-left: 70px;
     
 }
 
-
-
-
-
-
-
-
 /* game collection img and img footer area start */
 
 
-/* banner section 3 end game collection */
+/********** banner section 3 end game collection *******************/
+
+/***************** banner section 4 started *********/
+
+
+/***** banner text area 4 *******/
+
+
+.banner-item{
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+
+padding-top: 50px;
+
+}
+
+.game-banner-container{
+
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; /* 125% */
+   padding-left: 25rem;
+
+}
+
+
+.play-instantly{
+    text-align: right;
+font-family: Work Sans;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 60px; /* 125% */
+}
+
+.play-instantly1{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.no-download{
+    color: #0B0223;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+}
+.gameplay-discription{
+    color: #534C64;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+}
+.gameplay-discription{
+    width: 353px;
+}
+
+/********* banner image area *******/
+
+.game-img-container{
+position: relative;
+display: flex;
+flex-direction: column ;
+
+
+
+}
+.game1-img{
+    width: 634.833px;
+    height: 650px;
+    flex-shrink: 0;
+}
+.game1-img{
+
+    border-radius: 8px;
+background: url(<path-to-image>), lightgray -7.583px 0px / 102.389% 100% no-repeat;
+}
+.game2-img{
+    position: relative;
+    bottom: 255px ;
+    width: 318.5px;
+    height: 365.083px;
+    flex-shrink: 0;
+    bottom: ;
+}
+
+/***************** banner section 4 end *********/
